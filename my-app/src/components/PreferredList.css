@@ -1,0 +1,409 @@
+
+
+.list-details-container {
+    background-color: #1b1b1b;
+    color: #fff;
+    min-height: 100vh;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  
+  /* Header section with name + subinfo */
+  .list-header {
+    margin-bottom: 2rem;
+  }
+  
+  .list-title-row {
+    margin-bottom: 1rem;
+  }
+  
+  /* For editing the list name inline */
+  .edit-name-row {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  
+  .edit-name-input {
+    padding: 0.4rem;
+    border-radius: 4px;
+    border: 1px solid #444;
+    background-color: #2a2a2a;
+    color: #fff;
+  }
+  
+  /* For editing the description inline */
+  .edit-description-row {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .edit-description-textarea {
+    padding: 0.4rem;
+    border-radius: 4px;
+    border: 1px solid #444;
+    background-color: #2a2a2a;
+    color: #fff;
+    resize: vertical;
+  }
+  
+  /* Save/Cancel buttons */
+  .save-btn,
+  .cancel-btn {
+    background-color: #444;
+    border: none;
+    color: #fff;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 0.3rem;
+  }
+  .save-btn:hover,
+  .cancel-btn:hover {
+    background-color: #00c4ff;
+    color: #000;
+  }
+  
+  /* Title text + edit icon */
+  .list-title {
+    display: inline-block;
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 0.5rem;
+  }
+  .edit-icon {
+    font-size: 1rem;
+    cursor: pointer;
+    color: #ccc;
+    transition: color 0.3s ease;
+    margin-left: 0.3rem;
+  }
+  .edit-icon:hover {
+    color: #fff;
+  }
+  
+  .list-subinfo {
+    font-size: 0.9rem;
+    color: #ccc;
+    margin: 0.25rem 0 0;
+  }
+  
+  .list-description {
+    font-size: 1rem;
+    color: #ccc;
+    margin: 0.5rem 0 0;
+  }
+  
+  /* Add title section */
+  .add-title-section {
+    margin-bottom: 2rem;
+    position: relative; /* for the dropdown */
+  }
+  .add-title-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  .add-title-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #444;
+    background-color: #2a2a2a;
+    color: #ccc;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Search dropdown for matching items */
+  .search-dropdown {
+    position: absolute;
+    top: 5.2rem; /* ~ the bottom of the input */
+    left: 0;
+    width: 100%;
+    max-width: 400px;
+    background-color: #2a2a2a;
+    border: 1px solid #444;
+    border-radius: 4px;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+  }
+  
+  .search-dropdown-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4rem 0.6rem;
+    cursor: pointer;
+  }
+  .search-dropdown-item:hover {
+    background-color: #333;
+  }
+  .add-icon {
+    font-size: 1rem;
+    color: #00c4ff;
+    cursor: pointer;
+  }
+  
+  /* Where we display the items in the list */
+  .list-items-container {
+    margin-top: 1rem;
+  }
+  
+  /* If no items yet */
+  .no-titles {
+    color: #ccc;
+    /* align-items: center; */
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  /* Each item in the list */
+  .list-item-row {
+    background-color: #2a2a2a;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    position: relative; /* for the close icon */
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .close-icon {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-size: 1rem;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  .close-icon:hover {
+    color: #ff4444;
+  }
+  
+  .list-item-poster {
+    width: 60px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 4px;
+    flex-shrink: 0;
+  }
+  
+  .list-item-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .item-title-row {
+    margin-bottom: 0.3rem;
+  }
+  
+  .list-item-title {
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.1rem;
+    margin-right: 1rem;
+  }
+  
+  .list-item-rating {
+    display: block;
+    margin-top: 0.5rem;
+    color: #fff; /* star color or accent color for IMDb */
+  }
+  
+  .list-item-rated {
+    display: block;
+    margin-top: 0.5rem;
+    color: #ccc; /* or any accent color you prefer */
+  }
+  
+
+  /* 1) Center the main heading */
+.list-title {
+  text-align: center;       /* text content centered */
+  display: block;           /* so we can apply margin auto if needed */
+  margin: 0 auto 1rem auto; /* horizontal center and some spacing below */
+}
+
+/* 2) Center the "Add movie / tv show to this list" text */
+.add-title-label {
+  text-align: center;
+  display: block;
+  margin-bottom: 0.5rem; /* optional spacing */
+}
+
+/* 3) Center the search bar input */
+.add-title-input {
+  display: block;
+  margin: 0 auto;      /* horizontally center the input */
+  max-width: 400px;    /* optional: limit width for a cleaner look */
+}
+
+
+.add-title-heading {
+  text-align: center;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.list-item-number {
+  margin-right: 0.5rem; /* small gap after “1.” */
+  font-weight: bold;
+  color: #fff;          /* or your preferred color */
+}
+
+
+/* Ensure the parent container is position: relative */
+.add-title-section {
+  margin-bottom: 2rem;
+  position: relative;
+  /* center the entire section if you wish */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* The search dropdown */
+.search-dropdown {
+  position: absolute;
+  top: calc(100% + 5px); /* just below the input */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 400px;
+  background-color: #2a2a2a;
+  border: 1px solid #444;
+  border-radius: 4px;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1000;
+  /* Optionally add some margin-top or box-shadow, etc. */
+}
+
+
+/* Make the search input bigger */
+.add-title-input {
+  width: 100%;
+  max-width: 600px;       /* Increase from 400px to 600px, for instance */
+  padding: 0.75rem;       /* Increase padding for a larger feel */
+  border-radius: 4px;
+  border: 1px solid #444;
+  background-color: #2a2a2a;
+  color: #ccc;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;        /* Slightly bigger font if you like */
+}
+
+/* Make the dropdown match the wider input */
+.search-dropdown {
+  position: absolute;
+  top: calc(100% + 5px);  /* a bit of gap below the input */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 600px;       /* same as input width */
+  background-color: #2a2a2a;
+  border: 1px solid #444;
+  border-radius: 4px;
+  max-height: 300px;      /* maybe taller if you want */
+  overflow-y: auto;
+  z-index: 1000;
+  /* optional: box-shadow for a bit of depth */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+/* Each search result row with image + text + plus icon */
+.search-dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;           /* spacing between poster, text, plus icon */
+  padding: 0.6rem 0.8rem;
+  cursor: pointer;
+}
+
+.search-dropdown-item:hover {
+  background-color: #333;
+}
+
+/* Poster thumbnail in dropdown */
+.search-result-poster {
+  width: 40px;           /* or 50px, up to you */
+  height: 60px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/* Text for the title & year */
+.search-result-text {
+  flex: 1;               /* so it takes remaining space */
+  color: #fff;
+  font-size: 0.95rem;
+}
+
+/* Plus icon styling */
+.add-icon {
+  font-size: 1.2rem;
+  color: #fff;           /* default white */
+  transition: color 0.3s ease;
+}
+
+/* Hover color for the plus icon => your preferred color */
+.add-icon:hover {
+  color: #00c4ff;        /* example "preferred color" */
+}
+
+
+/* Remove the direct hover on .add-icon, 
+   keep it default white: */
+   .add-icon {
+    font-size: 1.2rem;
+    color: #fff;           /* default white */
+    transition: color 0.3s ease;
+  }
+  
+  /* On row hover, change the plus icon color */
+  .search-dropdown-item:hover .add-icon {
+    color: #00c4ff;        /* your preferred color */
+  }
+  
+  /* The row hover background */
+  .search-dropdown-item:hover {
+    background-color: #333;
+  }
+  
+
+  /* If you're using position: relative on .list-item-row */
+.list-item-row {
+  position: relative; 
+  /* everything else from your existing code */
+}
+
+/* The "X" is at top-right, so we place "Added <date>" somewhere below it. */
+.list-item-added-date {
+  position: absolute;
+  bottom: 20px;    /* Adjust so it's below the X icon (which is usually top: 8px) */
+  right: 8px;
+  color: #ccc;
+  font-size: 0.85rem;
+  /* If you want to center it vertically in the row instead, 
+     you could do top: 50%; transform: translateY(-50%); etc. */
+}
+
+
+.list-item-rating-value {
+  color: #00c4ff; /* or your preferred color */
+}
+
+.clickable-title {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.clickable-title:hover {
+  color: #00c4ff; /* Your preferred color */
+}

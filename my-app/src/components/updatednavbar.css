@@ -1,0 +1,64 @@
+/* --- New/Updated CSS for Logged-in User Dropdown --- */
+
+/* User Dropdown container when logged in */
+.user-dropdown {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 50%;
+    overflow: visible;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* User profile display: icon and first name */
+  .user-dropdown .user-profile {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+  
+  /* Display the first name next to the user icon */
+  .user-dropdown .user-name {
+    font-size: 0.9rem;
+    color: #fff;
+    margin-left: 4px;
+  }
+  
+  /* Optional: Adjust dropdown content position for logged in user */
+  .user-dropdown .dropdown-content {
+    top: 100%;
+    right: 0;
+    margin-top: 5px; /* adjust spacing if needed */
+  }
+  
+  /* --- Updated Hover Effects for Watchlist and Bell Links --- */
+  
+  /* Watchlist link: change background on hover */
+  .watchlist-link:hover {
+    background-color: #00c4ff;
+  }
+  
+  /* Bell link: change background on hover */
+  .bell-link:hover {
+    background-color: #00c4ff;
+  }
+  
+  /* --- Dropdown Logout Button Styling (if not already present) --- */
+  .dropdown-item.logout-btn {
+    background: none;
+    border: none;
+    color: #fff;
+    padding: 12px 16px;
+    text-align: left;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dropdown-item.logout-btn:hover {
+    background-color: #00c4ff;
+    color: #000;
+    border-radius: 8px;
+  }
+  

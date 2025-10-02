@@ -1,0 +1,132 @@
+/* Overall navbar container */
+.admin-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* left brand, center title, right user icon */
+    background-color: #1b1b1b;
+    color: #fff;
+    padding: 0.75rem 1rem;
+    height: 60px; /* fixed height */
+  }
+  
+  /* Left side: Brand header as h1 + film icon */
+  .admin-header-left {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  /* Film icon before the brand */
+  .login-icon {
+    font-size: 2rem;
+    color: #00c4ff; /* set to your preferred accent color */
+    margin-top: 5px;
+  }
+  
+  /* Brand text (h1) */
+  .navbar-brand {
+    font-size: 2rem; /* bigger, bold brand */
+    font-weight: bold;
+    color: #fff; 
+    margin: 0; 
+  }
+  
+  /* Center: Admin Console heading */
+  .admin-header-center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .admin-console-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+    color: #fff;
+    margin-left: 8rem;
+  }
+  
+  /* Right side: user icon with dropdown */
+  .admin-header-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  /* Container for the user icon + dropdown */
+  .admin-user-dropdown {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+  
+  /* The user icon */
+  .admin-user-icon {
+    font-size: 1.8rem;
+    color: #fff;
+    transition: color 0.3s ease;
+    margin-top: 8px; /* minor vertical alignment tweak */
+  }
+  
+  .admin-user-icon:hover {
+    color: #00c4ff;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .admin-user-dropdown-content {
+    position: absolute;
+    top: calc(100% + 8px); /* space below the icon */
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid #444;
+    border-radius: 8px;
+    padding: 0.5rem;
+    min-width: 120px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: none;
+  }
+  
+  /* Show the dropdown on toggle */
+  .admin-user-dropdown-content.show {
+    display: block;
+  }
+  
+  /* Common styling for the dropdown items (login/logout) */
+  .admin-dropdown-item {
+    display: block;
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    margin: 0.3rem 0;
+    font-size: 0.9rem;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Hover effect for all dropdown items */
+  .admin-dropdown-item:hover {
+    background-color: #00c4ff;
+    color: #000;
+  }
+  
+  /* (Optional) if you want separate classes for login/logout,
+     they can share the same styling or differ if you want. */
+  .login-btn {
+    /* same styling as .admin-dropdown-item by default */
+  }
+  
+  .logout-btn {
+    /* same styling as .admin-dropdown-item by default */
+
+    margin-left: 1.5rem;
+  }
+  

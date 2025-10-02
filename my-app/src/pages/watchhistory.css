@@ -1,0 +1,184 @@
+.watch-history-container {
+    padding: 2rem;
+    background-color: #1b1b1b;
+    color: #fff;
+    min-height: 100vh;
+  }
+  
+  .watch-history-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .no-history {
+    text-align: center;
+    color: #ccc;
+    font-size: 1.1rem;
+  }
+  
+  /* Each date group */
+  .watch-history-date-group {
+    margin-bottom: 2rem;
+  }
+  
+  .watch-history-date {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #ccc;
+  }
+  
+  /* Container for items for that date */
+  .watch-history-items {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  /* Single item: Poster + details in a row, plus X button on right */
+  .watch-history-item {
+    position: relative;
+    display: flex;
+    gap: 1rem;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    padding: 1rem;
+    align-items: flex-start;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+  }
+  
+  /* The close (X) button at top-right corner, bigger icon */
+  .remove-history-item-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.1);
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .remove-history-item-btn:hover {
+    background: rgba(255,255,255,0.3);
+    color: #00c4ff; /* Your preferred hover color */
+  }
+  
+  /* Make the icon bigger */
+  .remove-icon {
+    font-size: 1.4rem;
+  }
+  
+  /* Poster styling */
+  .history-item-poster {
+    width: 60px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  /* The details area to the right */
+  .history-item-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  
+  /* Title, year, type row */
+  .history-item-header {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+  }
+  
+  .history-item-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+
+  .clickable-title {
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  .clickable-title:hover {
+    color: #00c4ff; /* your preferred hover color */
+  }
+
+  
+  .history-item-year,
+  .history-item-type {
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+  
+  /* IMDb rating row: "IMDb: X" */
+  .history-item-imdb {
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    margin: 0.2rem 0;
+  }
+  
+  .imdb-label {
+    color: #fff; /* or #00c4ff if you prefer for the label */
+    font-weight: bold;
+  }
+  
+  .imdb-value {
+    color: #00c4ff; /* or #00c4ff for the rating text */
+  }
+  
+  /* Plot text (only first sentence) */
+  .history-item-plot {
+    font-size: 0.9rem;
+    color: #ccc;
+    line-height: 1.3;
+    margin: 0.4rem 0;
+  }
+  
+  /* Director & Stars row */
+  .history-item-credits {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  
+  /* Director label black & bold, value in #00c4ff */
+  .history-item-director {
+    margin: 0;
+  }
+  
+  .director-label {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .director-value {
+    color: #00c4ff;
+  }
+  
+  /* Stars label black & bold, value in #00c4ff */
+  .history-item-stars {
+    margin: 0;
+  }
+  
+  .stars-label {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .stars-value {
+    color: #00c4ff;
+  }
+  

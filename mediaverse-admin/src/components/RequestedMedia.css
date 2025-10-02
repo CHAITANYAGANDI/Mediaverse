@@ -1,0 +1,156 @@
+/* src/components/RequestedMedia.css */
+
+.requested-media-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    color: #f0f0f0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+  
+  .requested-media-title {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .no-media {
+    text-align: center;
+    color: #aaa;
+  }
+  
+  /* The list container */
+  .requested-media-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  /* Each media item as a row-like card */
+  .requested-media-item {
+    display: flex;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    position: relative;
+  }
+  
+  .requested-media-item:hover {
+    background-color: #333;
+  }
+  
+  /* Poster container */
+  .poster-container {
+    flex-shrink: 0;
+    width: 80px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 8px 0 0 8px;
+  }
+  
+  .media-poster {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Right side: Info container */
+  .info-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0.75rem 1rem;
+    gap: 0.25rem;
+  }
+  
+  /* Top row: title, IMDb rating, rated */
+  .top-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .media-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+  }
+  
+  .media-imdb {
+    font-size: 0.9rem;
+    color: #00c4ff;
+  }
+  
+  .media-rated {
+    font-size: 0.85rem;
+    padding: 2px 6px;
+    background-color: #444;
+    border-radius: 4px;
+  }
+  
+  /* Middle row: request status */
+  .middle-row {
+    margin-bottom: 0.5rem;
+  }
+  
+  .media-status {
+    font-size: 0.85rem;
+    color: #ccc;
+  }
+  
+  /* If the status is "waiting for admin approval" */
+  .waiting-approval {
+    color: #ffd700; /* yellow */
+  }
+  
+  /* Bottom row: date + Approve/Reject buttons */
+  .bottom-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .requested-date {
+    font-size: 0.8rem;
+    color: #999;
+  }
+  
+  /* Approve/Reject button container */
+  .admin-actions {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  /* Approve button */
+  .approve-btn {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.4rem 0.75rem;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .approve-btn:hover {
+    background-color: #4BB543; /* green on hover */
+  }
+  
+  /* Reject button */
+  .reject-btn {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.4rem 0.75rem;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .reject-btn:hover {
+    background-color: #dc3545; /* red on hover */
+  }
+  

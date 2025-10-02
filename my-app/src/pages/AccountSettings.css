@@ -1,0 +1,136 @@
+/* Container for the entire Account Settings page */
+.account-settings-container {
+  background-color: #1b1b1b;
+  color: #fff;
+  min-height: 100vh;
+  padding: 2rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+}
+
+/* Main title */
+.account-settings-title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+/* Subtitle or descriptive text under the title */
+.account-settings-subtitle {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 2rem;
+  text-align: center;
+  max-width: 600px; /* limit the text width if desired */
+}
+
+/* Container for the button options (Edit Profile, Login & Security, etc.) */
+.account-settings-options {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  max-width: 400px; /* or 600px if you want wider buttons */
+}
+
+/* Common button styling */
+.settings-btn {
+  background-color: #444;
+  border: none;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-align: center;
+  width: 100%;
+}
+
+.settings-btn:hover {
+  background-color: #00c4ff; /* Hover color */
+  color: #000; /* Text color on hover */
+}
+
+/* Special styling for the "Delete Account" button */
+.delete-btn {
+  background-color: #ff4444;
+}
+
+.delete-btn:hover {
+  background-color: #ff6666;
+  color: #000;
+}
+
+/* --- Confirmation Dialog Styles --- */
+
+/* The overlay that covers the screen when the dialog is open */
+.delete-confirmation-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999; /* Ensure the overlay is on top of other elements */
+}
+
+/* The dialog box itself */
+.delete-confirmation-dialog {
+  background-color: #333;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 90%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.delete-confirmation-dialog h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* Container for the confirm/cancel buttons in the dialog */
+.dialog-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+/* Buttons within the dialog (can reuse .settings-btn or define unique styles) */
+.dialog-buttons button {
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+/* Example: If you want the delete button in the dialog to match the "Delete" styling above */
+.dialog-buttons .delete-btn {
+  background-color: #ff4444;
+  color: #fff;
+}
+
+.dialog-buttons .delete-btn:hover {
+  background-color: #ff6666;
+  color: #000;
+}
+
+/* Example: If you want the cancel button to have a neutral style */
+.dialog-buttons .cancel-btn {
+  background-color: #444;
+  color: #fff;
+}
+
+.dialog-buttons .cancel-btn:hover {
+  background-color: #00c4ff;
+  color: #000;
+}

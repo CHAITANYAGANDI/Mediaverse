@@ -1,0 +1,87 @@
+/* src/components/Notifications.css */
+
+.notifications-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    color: #fff;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    padding: 1rem;
+  }
+  
+  .notifications-title {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .no-notifications {
+    text-align: center;
+    color: #aaa;
+  }
+  
+  /* The list container */
+  .notifications-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  /* Each notification item */
+  .notification-item {
+    display: flex;            /* so poster + content appear side by side */
+    align-items: flex-start;  /* top-aligned */
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    padding: 0.75rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .notification-item:hover {
+    background-color: #333;
+  }
+  
+  /* Poster styling */
+  .notification-poster {
+    width: 60px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 0.75rem; /* space between poster and content */
+  }
+  
+  /* The content to the right of the poster */
+  .notification-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  /* Notification text sections */
+  .notification-heading {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffd700; /* or #00c4ff, etc. for "Now Available" heading */
+    margin-bottom: 0.25rem;
+  }
+  
+  .notification-title {
+    font-size: 0.95rem;
+    color: #fff;
+    margin-bottom: 0.25rem;
+  }
+  
+  .notification-subtext {
+    font-size: 0.85rem;
+    color: #ccc;
+    margin-bottom: 0.25rem;
+  }
+  
+  .notification-time {
+    font-size: 0.75rem;
+    color: #999;
+  }
+  

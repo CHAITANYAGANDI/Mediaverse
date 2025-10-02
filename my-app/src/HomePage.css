@@ -1,0 +1,328 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1b1b1b; /* Dark background */
+  color: #fff; /* Default text color */
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main Content */
+.main {
+  padding: 2rem;
+  flex: 1; /* Pushes footer to the bottom if content is short */
+}
+
+/* Card Grid Layout */
+.card-grid {
+  display: grid;
+  /* For exactly 5 columns per row */
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.5rem;
+  justify-items: center; /* Centers each card horizontally */
+  align-items: start;
+}
+
+/* Card Styles */
+.card {
+  background-color: #2a2a2a;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 180px;
+    position: relative; /* To position the overlay */
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img {
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+  display: block;
+}
+
+.card-content {
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+/* Details Row: year on left, type on right */
+.card-details {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: #ccc;
+  width: 100%;
+}
+
+.card-type {
+  background-color: #444;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+/* Title styling */
+.card-title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+  
+  /* Card Overlay for glass effect & view animation */
+  .card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    opacity: 0;
+    transform: scale(0.95);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .card:hover .card-overlay {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+/* Pagination Styles */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.pagination button {
+  background-color: #444;
+  color: #fff;
+  border: none;
+  width: 40px; /* fixed width for circle shape */
+  height: 40px; /* fixed height for circle shape */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1.2rem;
+}
+
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pagination button:hover:not(:disabled) {
+  background-color: #555;
+  color: #00ccff;
+}
+
+.pagination span {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #222;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.footer p {
+  margin: 0.25rem 0;
+  color: #ccc;
+}
+
+/* Icon Button helper */
+.icon-button {
+  display: inline-flex;
+  align-items: center;
+}
+
+.icon-button .svg-inline--fa {
+  font-size: 24px;
+}
+
+
+/* General styling for the welcome section */
+.welcome-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+  color: #f0f0f0;
+}
+
+/* Main heading styling */
+.welcome-section h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  letter-spacing: 0.5px;
+}
+
+/* Subheading styling */
+.welcome-section p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 2.5rem;
+  max-width: 800px;
+}
+
+/* Feature section styling */
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.feature {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.feature h3 {
+  font-size: 1.5rem;
+  color: #00ccff;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.feature p {
+  font-size: 1rem;
+  margin-bottom: 0;
+  color: #e0e0e0;
+}
+
+/* Button styling */
+.cta-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.primary-btn, .secondary-btn {
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.primary-btn {
+  background: #00ccff;
+  color: white;
+  border: none;
+  box-shadow: 0 4px 6px rgba(52, 152, 219, 0.3);
+}
+
+.primary-btn:hover {
+  background: #00ccff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(52, 152, 219, 0.4);
+}
+
+.secondary-btn {
+  background: transparent;
+  color: #00ccff;
+  border: 2px solid #00ccff;
+}
+
+.secondary-btn:hover {
+  background: rgba(52, 152, 219, 0.1);
+  transform: translateY(-2px);
+}
+
+/* Footer text */
+.welcome-footer {
+  font-size: 1rem;
+  color: #bbb;
+  font-style: italic;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .welcome-section h1 {
+    font-size: 2.5rem;
+  }
+  
+  .welcome-section p {
+    font-size: 1.1rem;
+  }
+  
+  .features {
+    grid-template-columns: 1fr;
+  }
+  
+  .cta-buttons {
+    flex-direction: column;
+  }
+  
+  .primary-btn, .secondary-btn {
+    width: 100%;
+  }
+}
+
+/* Add some subtle animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.welcome-section h1,
+.welcome-section > p,
+.features,
+.cta-buttons,
+.welcome-footer {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+.features {
+  animation-delay: 0.2s;
+}
+
+.cta-buttons {
+  animation-delay: 0.4s;
+}
+
+.welcome-footer {
+  animation-delay: 0.6s;
+}

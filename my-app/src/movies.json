@@ -1,0 +1,1186 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "Title": "Top Gun",
+      "Year": "1986",
+      "Rated": "PG",
+      "Released": "16 May 1986",
+      "Runtime": "109 min",
+      "Genre": "Action, Drama",
+      "Director": "Tony Scott",
+      "Writer": "Jim Cash, Jack Epps Jr., Ehud Yonay",
+      "Actors": "Tom Cruise, Tim Robbins, Kelly McGillis",
+      "Plot": "Call-sign \"Maverick\", LT Pete Mitchell, the impetuous daredevil Navy-pilot ace, is accepted into Miramar's elite Fighter School, also known as \"Top Gun\". There, as the impulsive pilot competes with the best of the best, not only will he meet Charlie, the flying school's curvaceous astrophysics instructor, but also the brilliant and highly competitive fellow student, \"Iceman\", with whom right from the start, he will engage in a reckless contest. As Maverick is haunted by his father's mysterious death, will he be able to suppress his wild nature to win the prestigious Top Gun Trophy?",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Won 1 Oscar. 11 wins & 9 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZmVjNzQ3MjYtYTZiNC00Y2YzLWExZTEtMTM2ZDllNDI0MzgyXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "6.9/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "59%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "50/100"
+        }
+      ],
+      "Metascore": "50",
+      "imdbRating": "6.9",
+      "imdbVotes": "518,456",
+      "imdbID": "tt0092099",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$180,258,178",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": 2,
+      "Title": "Blade Runner 2049",
+      "Year": "2017",
+      "Rated": "R",
+      "Released": "06 Oct 2017",
+      "Runtime": "164 min",
+      "Genre": "Action, Drama, Mystery",
+      "Director": "Denis Villeneuve",
+      "Writer": "Hampton Fancher, Michael Green, Philip K. Dick",
+      "Actors": "Harrison Ford, Ryan Gosling, Ana de Armas",
+      "Plot": "Thirty years after the events of Blade Runner (1982), a new Blade Runner, L.A.P.D. Officer \"K\" (Ryan Gosling), unearths a long-buried secret that has the potential to plunge what's left of society into chaos. K's discovery leads him on a quest to find Rick Deckard (Harrison Ford), a former L.A.P.D. Blade Runner, who has been missing for thirty years.",
+      "Language": "English",
+      "Country": "United States, United Kingdom, Canada, Spain",
+      "Awards": "Won 2 Oscars. 100 wins & 163 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.0/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "88%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "81/100"
+        }
+      ],
+      "Metascore": "81",
+      "imdbRating": "8.0",
+      "imdbVotes": "695,699",
+      "imdbID": "tt1856101",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$92,071,675",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": 3,
+      "Title": "Inception",
+      "Year": "2010",
+      "Rated": "PG-13",
+      "Released": "16 Jul 2010",
+      "Runtime": "148 min",
+      "Genre": "Action, Adventure, Sci-Fi",
+      "Director": "Christopher Nolan",
+      "Writer": "Christopher Nolan",
+      "Actors": "Leonardo DiCaprio, Joseph Gordon-Levitt, Elliot Page",
+      "Plot": "Dom Cobb is a skilled thief, the absolute best in the dangerous art of extraction, stealing valuable secrets from deep within the subconscious during the dream state, when the mind is at its most vulnerable. Cobb's rare ability has made him a coveted player in this treacherous new world of corporate espionage, but it has also made him an international fugitive and cost him everything he has ever loved. Now Cobb is being offered a chance at redemption. One last job could give him his life back but only if he can accomplish the impossible, inception. Instead of the perfect heist, Cobb and his team of specialists have to pull off the reverse: their task is not to steal an idea, but to plant one. If they succeed, it could be the perfect crime. But no amount of careful planning or expertise can prepare the team for the dangerous enemy that seems to predict their every move. An enemy that only Cobb could have seen coming.",
+      "Language": "English, Japanese, French",
+      "Country": "United States, United Kingdom",
+      "Awards": "Won 4 Oscars. 159 wins & 220 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.8/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "87%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "74/100"
+        }
+      ],
+      "Metascore": "74",
+      "imdbRating": "8.8",
+      "imdbVotes": "2,645,456",
+      "imdbID": "tt1375666",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$292,587,330",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": 4,
+      "Title": "Brave",
+      "Year": "2012",
+      "Rated": "PG",
+      "Released": "22 Jun 2012",
+      "Runtime": "93 min",
+      "Genre": "Animation, Action, Adventure",
+      "Director": "Mark Andrews, Brenda Chapman, Steve Purcell",
+      "Writer": "Brenda Chapman, Mark Andrews, Steve Purcell",
+      "Actors": "Kelly Macdonald, Billy Connolly, Emma Thompson",
+      "Plot": "Set in Scotland in a rugged and mythical time, this movie features Princess Merida (Kelly Macdonald), an aspiring archer and impetuous daughter of Queen Elinor (Dame Emma Thompson). Merida makes a reckless choice that unleashes unintended peril and forces her to spring into action to set things right.",
+      "Language": "English",
+      "Country": "United States, Japan, United Kingdom",
+      "Awards": "Won 1 Oscar. 20 wins & 48 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMzgwODk3ODA1NF5BMl5BanBnXkFtZTcwNjU3NjQ0Nw@@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.1/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "78%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "69/100"
+        }
+      ],
+      "Metascore": "69",
+      "imdbRating": "7.1",
+      "imdbVotes": "456,183",
+      "imdbID": "tt1217209",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$237,283,207",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": 5,
+      "Title": "The Dark Knight",
+      "Year": "2008",
+      "Rated": "PG-13",
+      "Released": "18 Jul 2008",
+      "Runtime": "152 min",
+      "Genre": "Action, Crime, Drama",
+      "Director": "Christopher Nolan",
+      "Writer": "Jonathan Nolan, Christopher Nolan, David S. Goyer",
+      "Actors": "Christian Bale, Heath Ledger, Aaron Eckhart",
+      "Plot": "Set within a year after the events of Batman Begins (2005), Batman, Lieutenant James Gordon, and new District Attorney Harvey Dent successfully begin to round up the criminals that plague Gotham City, until a mysterious and sadistic criminal mastermind known only as \"The Joker\" appears in Gotham, creating a new wave of chaos. Batman's struggle against The Joker becomes deeply personal, forcing him to \"confront everything he believes\" and improve his technology to stop him. A love triangle develops between Bruce Wayne, Dent, and Rachel Dawes.",
+      "Language": "English, Mandarin",
+      "Country": "United States, United Kingdom",
+      "Awards": "Won 2 Oscars. 164 wins & 165 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "9.0/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "94%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "84/100"
+        }
+      ],
+      "Metascore": "84",
+      "imdbRating": "9.0",
+      "imdbVotes": "2,974,670",
+      "imdbID": "tt0468569",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$534,987,076",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": 6,
+      "Title": "The Dark Knight Rises",
+      "Year": "2012",
+      "Rated": "PG-13",
+      "Released": "20 Jul 2012",
+      "Runtime": "164 min",
+      "Genre": "Action, Drama, Thriller",
+      "Director": "Christopher Nolan",
+      "Writer": "Jonathan Nolan, Christopher Nolan, David S. Goyer",
+      "Actors": "Christian Bale, Tom Hardy, Anne Hathaway",
+      "Plot": "Despite his tarnished reputation after the events of The Dark Knight (2008), in which he took the rap for Dent's crimes, Batman feels compelled to intervene to assist the city and its Police force, which is struggling to cope with Bane's plans to destroy the city.",
+      "Language": "English, Arabic",
+      "Country": "United States, United Kingdom",
+      "Awards": "Nominated for 1 BAFTA Award45 wins & 103 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTk4ODQzNDY3Ml5BMl5BanBnXkFtZTcwODA0NTM4Nw@@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.4/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "87%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "78/100"
+        }
+      ],
+      "Metascore": "78",
+      "imdbRating": "8.4",
+      "imdbVotes": "1,875,652",
+      "imdbID": "tt1345836",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$448,149,584",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": 7,
+      "Title": "Batman Begins",
+      "Year": "2005",
+      "Rated": "PG-13",
+      "Released": "15 Jun 2005",
+      "Runtime": "140 min",
+      "Genre": "Action, Drama",
+      "Director": "Christopher Nolan",
+      "Writer": "Bob Kane, David S. Goyer, Christopher Nolan",
+      "Actors": "Christian Bale, Michael Caine, Ken Watanabe",
+      "Plot": "When his parents are killed, billionaire playboy Bruce Wayne relocates to Asia, where he is mentored by Henri Ducard and Ra's Al Ghul in how to fight evil. When learning about the plan to wipe out evil in Gotham City by Ducard, Bruce prevents this plan from getting any further and heads back to his home. Back in his original surroundings, Bruce adopts the image of a bat to strike fear into the criminals and the corrupt as the icon known as \"Batman\". But it doesn't stay quiet for long.",
+      "Language": "English, Mandarin",
+      "Country": "United States, United Kingdom",
+      "Awards": "Nominated for 1 Oscar. 15 wins & 79 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BODIyMDdhNTgtNDlmOC00MjUxLWE2NDItODA5MTdkNzY3ZTdhXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.2/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "85%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "70/100"
+        }
+      ],
+      "Metascore": "70",
+      "imdbRating": "8.2",
+      "imdbVotes": "1,626,251",
+      "imdbID": "tt0372784",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$206,863,479",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": 8,
+      "Title": "The Shawshank Redemption",
+      "Year": "1994",
+      "Rated": "R",
+      "Released": "14 Oct 1994",
+      "Runtime": "142 min",
+      "Genre": "Drama",
+      "Director": "Frank Darabont",
+      "Writer": "Stephen King, Frank Darabont",
+      "Actors": "Tim Robbins, Morgan Freeman, Bob Gunton",
+      "Plot": "Chronicles the experiences of a formerly successful banker as a prisoner in the gloomy jailhouse of Shawshank after being found guilty of a crime he did not commit. The film portrays the man's unique way of dealing with his new, torturous life; along the way he befriends a number of fellow prisoners, most notably a wise long-term inmate named Red.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Nominated for 7 Oscars. 21 wins & 42 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMDAyY2FhYjctNDc5OS00MDNlLThiMGUtY2UxYWVkNGY2ZjljXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "9.3/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "89%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "82/100"
+        }
+      ],
+      "Metascore": "82",
+      "imdbRating": "9.3",
+      "imdbVotes": "2,995,055",
+      "imdbID": "tt0111161",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$28,767,189",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": 9,
+      "Title": "The Godfather",
+      "Year": "1972",
+      "Rated": "R",
+      "Released": "24 Mar 1972",
+      "Runtime": "175 min",
+      "Genre": "Crime, Drama",
+      "Director": "Francis Ford Coppola",
+      "Writer": "Mario Puzo, Francis Ford Coppola",
+      "Actors": "Marlon Brando, Al Pacino, James Caan",
+      "Plot": "The Godfather \"Don\" Vito Corleone is the head of the Corleone mafia family in New York. He is at the event of his daughter's wedding. Michael, Vito's youngest son and a decorated WW II Marine is also present at the wedding. Michael seems to be uninterested in being a part of the family business. Vito is a powerful man, and is kind to all those who give him respect but is ruthless against those who do not. But when a powerful and treacherous rival wants to sell drugs and needs the Don's influence for the same, Vito refuses to do it. What follows is a clash between Vito's fading old values and the new ways which may cause Michael to do the thing he was most reluctant in doing and wage a mob war against all the other mafia families which could tear the Corleone family apart.",
+      "Language": "English, Italian, Latin",
+      "Country": "United States",
+      "Awards": "Won 3 Oscars. 31 wins & 31 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNGEwYjgwOGQtYjg5ZS00Njc1LTk2ZGEtM2QwZWQ2NjdhZTE5XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "9.2/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "97%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "100/100"
+        }
+      ],
+      "Metascore": "100",
+      "imdbRating": "9.2",
+      "imdbVotes": "2,090,520",
+      "imdbID": "tt0068646",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$136,381,073",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": 10,
+      "Title": "The Godfather Part II",
+      "Year": "1974",
+      "Rated": "R",
+      "Released": "18 Dec 1974",
+      "Runtime": "202 min",
+      "Genre": "Crime, Drama",
+      "Director": "Francis Ford Coppola",
+      "Writer": "Francis Ford Coppola, Mario Puzo",
+      "Actors": "Al Pacino, Robert De Niro, Robert Duvall",
+      "Plot": "The continuing saga of the Corleone crime family tells the story of a young Vito Corleone growing up in Sicily and in 1910s New York; and follows Michael Corleone in the 1950s as he attempts to expand the family business into Las Vegas, Hollywood and Cuba.",
+      "Language": "English, Italian, Spanish, Latin, Sicilian",
+      "Country": "United States",
+      "Awards": "Won 6 Oscars. 17 wins & 21 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNzc1OWY5MjktZDllMi00ZDEzLWEwMGItYjk1YmRhYjBjNTVlXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "9.0/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "96%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "90/100"
+        }
+      ],
+      "Metascore": "90",
+      "imdbRating": "9.0",
+      "imdbVotes": "1,405,378",
+      "imdbID": "tt0071562",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$47,834,595",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": 11,
+      "Title": "12 Angry Men",
+      "Year": "1957",
+      "Rated": "Approved",
+      "Released": "10 Apr 1957",
+      "Runtime": "96 min",
+      "Genre": "Crime, Drama",
+      "Director": "Sidney Lumet",
+      "Writer": "Reginald Rose",
+      "Actors": "Henry Fonda, Lee J. Cobb, Martin Balsam",
+      "Plot": "The defense and the prosecution have rested, and the jury is filing into the jury room to decide if a young man is guilty or innocent of murdering his father. What begins as an open-and-shut case of murder soon becomes a detective story that presents a succession of clues creating doubt, and a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, AND each other. Based on the play, all of the action takes place on the stage of the jury room.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Nominated for 3 Oscars. 16 wins & 12 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYjE4NzdmOTYtYjc5Yi00YzBiLWEzNDEtNTgxZGQ2MWVkN2NiXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "9.0/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "100%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "97/100"
+        }
+      ],
+      "Metascore": "97",
+      "imdbRating": "9.0",
+      "imdbVotes": "911,567",
+      "imdbID": "tt0050083",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": 12,
+      "Title": "The Lord of the Rings: The Return of the King",
+      "Year": "2003",
+      "Rated": "PG-13",
+      "Released": "17 Dec 2003",
+      "Runtime": "201 min",
+      "Genre": "Adventure, Drama, Fantasy",
+      "Director": "Peter Jackson",
+      "Writer": "J.R.R. Tolkien, Fran Walsh, Philippa Boyens",
+      "Actors": "Elijah Wood, Viggo Mortensen, Ian McKellen",
+      "Plot": "The final confrontation between the forces of good and evil fighting for control of the future of Middle-earth. Frodo and Sam reach Mordor in their quest to destroy the One Ring, while Aragorn leads the forces of good against Sauron's evil army at the stone city of Minas Tirith.",
+      "Language": "English, Quenya, Old English, Sindarin",
+      "Country": "New Zealand, United States",
+      "Awards": "Won 11 Oscars. 215 wins & 124 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTZkMjBjNWMtZGI5OC00MGU0LTk4ZTItODg2NWM3NTVmNWQ4XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "9.0/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "94%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "94/100"
+        }
+      ],
+      "Metascore": "94",
+      "imdbRating": "9.0",
+      "imdbVotes": "2,044,929",
+      "imdbID": "tt0167260",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$381,878,219",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": 13,
+      "Title": "Schindler's List",
+      "Year": "1993",
+      "Rated": "R",
+      "Released": "04 Feb 1994",
+      "Runtime": "195 min",
+      "Genre": "Biography, Drama, History",
+      "Director": "Steven Spielberg",
+      "Writer": "Thomas Keneally, Steven Zaillian",
+      "Actors": "Liam Neeson, Ralph Fiennes, Ben Kingsley",
+      "Plot": "Oskar Schindler is a vain and greedy German businessman who becomes an unlikely humanitarian amid the barbaric German Nazi reign when he feels compelled to turn his factory into a refuge for Jews. Based on the true story of Oskar Schindler who managed to save about 1100 Jews from being gassed at the Auschwitz concentration camp, it is a testament to the good in all of us.",
+      "Language": "English, Hebrew, German, Polish, Latin",
+      "Country": "United States",
+      "Awards": "Won 7 Oscars. 91 wins & 49 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNjM1ZDQxYWUtMzQyZS00MTE1LWJmZGYtNGUyNTdlYjM3ZmVmXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "9.0/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "98%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "95/100"
+        }
+      ],
+      "Metascore": "95",
+      "imdbRating": "9.0",
+      "imdbVotes": "1,501,081",
+      "imdbID": "tt0108052",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$96,898,818",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": 14,
+      "Title": "Pulp Fiction",
+      "Year": "1994",
+      "Rated": "R",
+      "Released": "14 Oct 1994",
+      "Runtime": "154 min",
+      "Genre": "Crime, Drama",
+      "Director": "Quentin Tarantino",
+      "Writer": "Quentin Tarantino, Roger Avary",
+      "Actors": "John Travolta, Uma Thurman, Samuel L. Jackson",
+      "Plot": "Jules Winnfield (Samuel L. Jackson) and Vincent Vega (John Travolta) are two hit men who are out to retrieve a suitcase stolen from their employer, mob boss Marsellus Wallace (Ving Rhames). Wallace has also asked Vincent to take his wife Mia (Uma Thurman) out a few days later when Wallace himself will be out of town. Butch Coolidge (Bruce Willis) is an aging boxer who is paid by Wallace to lose his fight. The lives of these seemingly unrelated people are woven together comprising of a series of funny, bizarre and uncalled-for incidents.",
+      "Language": "English, Spanish, French",
+      "Country": "United States",
+      "Awards": "Won 1 Oscar. 69 wins & 72 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYTViYTE3ZGQtNDBlMC00ZTAyLTkyODMtZGRiZDg0MjA2YThkXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.9/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "92%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "95/100"
+        }
+      ],
+      "Metascore": "95",
+      "imdbRating": "8.9",
+      "imdbVotes": "2,289,917",
+      "imdbID": "tt0110912",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$107,928,762",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": 15,
+      "Title": "The Lord of the Rings: The Fellowship of the Ring",
+      "Year": "2001",
+      "Rated": "PG-13",
+      "Released": "19 Dec 2001",
+      "Runtime": "178 min",
+      "Genre": "Adventure, Drama, Fantasy",
+      "Director": "Peter Jackson",
+      "Writer": "J.R.R. Tolkien, Fran Walsh, Philippa Boyens",
+      "Actors": "Elijah Wood, Ian McKellen, Orlando Bloom",
+      "Plot": "An ancient Ring thought lost for centuries has been found, and through a strange twist of fate has been given to a small Hobbit named Frodo. When Gandalf discovers the Ring is in fact the One Ring of the Dark Lord Sauron, Frodo must make an epic quest to the Cracks of Doom in order to destroy it. However, he does not go alone. He is joined by Gandalf, Legolas the elf, Gimli the Dwarf, Aragorn, Boromir, and his three Hobbit friends Merry, Pippin, and Samwise. Through mountains, snow, darkness, forests, rivers and plains, facing evil and danger at every corner the Fellowship of the Ring must go. Their quest to destroy the One Ring is the only hope for the end of the Dark Lords reign.",
+      "Language": "English, Sindarin",
+      "Country": "New Zealand, United States, United Kingdom",
+      "Awards": "Won 4 Oscars. 125 wins & 126 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNzIxMDQ2YTctNDY4MC00ZTRhLTk4ODQtMTVlOWY4NTdiYmMwXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.9/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "92%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "92/100"
+        }
+      ],
+      "Metascore": "92",
+      "imdbRating": "8.9",
+      "imdbVotes": "2,082,432",
+      "imdbID": "tt0120737",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$319,372,078",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": 16,
+      "Title": "The Good, the Bad and the Ugly",
+      "Year": "1966",
+      "Rated": "R",
+      "Released": "29 Dec 1967",
+      "Runtime": "178 min",
+      "Genre": "Adventure, Drama, Western",
+      "Director": "Sergio Leone",
+      "Writer": "Luciano Vincenzoni, Sergio Leone, Agenore Incrocci",
+      "Actors": "Clint Eastwood, Eli Wallach, Lee Van Cleef",
+      "Plot": "A bounty-hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery.",
+      "Language": "Italian",
+      "Country": "Italy, Spain, West Germany, United States",
+      "Awards": "2 wins & 5 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMWM5ZjQxM2YtNDlmYi00ZDNhLWI4MWUtN2VkYjBlMTY1ZTkwXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.8/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "97%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "90/100"
+        }
+      ],
+      "Metascore": "90",
+      "imdbRating": "8.8",
+      "imdbVotes": "843,180",
+      "imdbID": "tt0060196",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$25,100,000",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": 17,
+      "Title": "Forrest Gump",
+      "Year": "1994",
+      "Rated": "PG-13",
+      "Released": "06 Jul 1994",
+      "Runtime": "142 min",
+      "Genre": "Drama, Romance",
+      "Director": "Robert Zemeckis",
+      "Writer": "Winston Groom, Eric Roth",
+      "Actors": "Tom Hanks, Robin Wright, Gary Sinise",
+      "Plot": "The history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who yearns to be reunited with his childhood sweetheart.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Won 6 Oscars. 51 wins & 74 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNDYwNzVjMTItZmU5YS00YjQ5LTljYjgtMjY2NDVmYWMyNWFmXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.8/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "75%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "82/100"
+        }
+      ],
+      "Metascore": "82",
+      "imdbRating": "8.8",
+      "imdbVotes": "2,342,884",
+      "imdbID": "tt0109830",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$330,455,270",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": 18,
+      "Title": "The Lord of the Rings: The Two Towers",
+      "Year": "2002",
+      "Rated": "PG-13",
+      "Released": "18 Dec 2002",
+      "Runtime": "179 min",
+      "Genre": "Adventure, Drama, Fantasy",
+      "Director": "Peter Jackson",
+      "Writer": "J.R.R. Tolkien, Fran Walsh, Philippa Boyens",
+      "Actors": "Elijah Wood, Ian McKellen, Viggo Mortensen",
+      "Plot": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
+      "Language": "English, Sindarin, Old English",
+      "Country": "New Zealand, United States",
+      "Awards": "Won 2 Oscars. 132 wins & 138 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMGQxMDdiOWUtYjc1Ni00YzM1LWE2NjMtZTg3Y2JkMjEzMTJjXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.8/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "95%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "87/100"
+        }
+      ],
+      "Metascore": "87",
+      "imdbRating": "8.8",
+      "imdbVotes": "1,849,993",
+      "imdbID": "tt0167261",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$345,518,923",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": 19,
+      "Title": "Fight Club",
+      "Year": "1999",
+      "Rated": "R",
+      "Released": "15 Oct 1999",
+      "Runtime": "139 min",
+      "Genre": "Drama",
+      "Director": "David Fincher",
+      "Writer": "Chuck Palahniuk, Jim Uhls",
+      "Actors": "Brad Pitt, Edward Norton, Meat Loaf",
+      "Plot": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.",
+      "Language": "English",
+      "Country": "Germany, United States",
+      "Awards": "Nominated for 1 Oscar. 12 wins & 38 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.8/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "81%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "67/100"
+        }
+      ],
+      "Metascore": "67",
+      "imdbRating": "8.8",
+      "imdbVotes": "2,409,361",
+      "imdbID": "tt0137523",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$37,030,102",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": 20,
+      "Title": "Star Wars: Episode V - The Empire Strikes Back",
+      "Year": "1980",
+      "Rated": "PG",
+      "Released": "18 Jun 1980",
+      "Runtime": "124 min",
+      "Genre": "Action, Adventure, Fantasy",
+      "Director": "Irvin Kershner",
+      "Writer": "Leigh Brackett, Lawrence Kasdan, George Lucas",
+      "Actors": "Mark Hamill, Harrison Ford, Carrie Fisher",
+      "Plot": "After the Empire overpowers the Rebel Alliance, Luke Skywalker begins his Jedi training with Yoda. At the same time, Darth Vader and bounty hunter Boba Fett pursue his friends across the galaxy.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Won 1 Oscar. 27 wins & 20 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTkxNGFlNDktZmJkNC00MDdhLTg0MTEtZjZiYWI3MGE5NWIwXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.7/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "95%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "82/100"
+        }
+      ],
+      "Metascore": "82",
+      "imdbRating": "8.7",
+      "imdbVotes": "1,421,764",
+      "imdbID": "tt0080684",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$292,753,960",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": 21,
+      "Title": "The Matrix",
+      "Year": "1999",
+      "Rated": "R",
+      "Released": "31 Mar 1999",
+      "Runtime": "136 min",
+      "Genre": "Action, Sci-Fi",
+      "Director": "Lana Wachowski, Lilly Wachowski",
+      "Writer": "Lilly Wachowski, Lana Wachowski",
+      "Actors": "Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss",
+      "Plot": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+      "Language": "English",
+      "Country": "United States, Australia",
+      "Awards": "Won 4 Oscars. 42 wins & 52 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.7/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "83%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "73/100"
+        }
+      ],
+      "Metascore": "73",
+      "imdbRating": "8.7",
+      "imdbVotes": "2,124,695",
+      "imdbID": "tt0133093",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$172,076,928",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": 22,
+      "Title": "Goodfellas",
+      "Year": "1990",
+      "Rated": "R",
+      "Released": "21 Sep 1990",
+      "Runtime": "145 min",
+      "Genre": "Biography, Crime, Drama",
+      "Director": "Martin Scorsese",
+      "Writer": "Nicholas Pileggi, Martin Scorsese",
+      "Actors": "Robert De Niro, Ray Liotta, Joe Pesci",
+      "Plot": "The story of Henry Hill and his life in the mafia, covering his relationship with his wife Karen and his mob partners Jimmy Conway and Tommy DeVito.",
+      "Language": "English, Italian, Hebrew, Yiddish",
+      "Country": "United States",
+      "Awards": "Won 1 Oscar. 44 wins & 38 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BN2E5NzI2ZGMtY2VjNi00YTRjLWI1MDUtZGY5OWU1MWJjZjRjXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.7/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "94%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "92/100"
+        }
+      ],
+      "Metascore": "92",
+      "imdbRating": "8.7",
+      "imdbVotes": "1,307,085",
+      "imdbID": "tt0099685",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$46,909,721",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": 23,
+      "Title": "One Flew Over the Cuckoo's Nest",
+      "Year": "1975",
+      "Rated": "R",
+      "Released": "19 Nov 1975",
+      "Runtime": "133 min",
+      "Genre": "Drama",
+      "Director": "Milos Forman",
+      "Writer": "Lawrence Hauben, Bo Goldman, Ken Kesey",
+      "Actors": "Jack Nicholson, Louise Fletcher, Michael Berryman",
+      "Plot": "In the Fall of 1963, a Korean War veteran and criminal pleads insanity and is admitted to a mental institution, where he rallies up the scared patients against the tyrannical nurse.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Won 5 Oscars. 38 wins & 15 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYjBkMjgzMzYtNzRiMS00NDc3LWE4YTUtZjYxYjZhNjNhYzhhXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.7/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "93%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "84/100"
+        }
+      ],
+      "Metascore": "84",
+      "imdbRating": "8.7",
+      "imdbVotes": "1,100,141",
+      "imdbID": "tt0073486",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$108,981,275",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": 24,
+      "Title": "Interstellar",
+      "Year": "2014",
+      "Rated": "PG-13",
+      "Released": "07 Nov 2014",
+      "Runtime": "169 min",
+      "Genre": "Adventure, Drama, Sci-Fi",
+      "Director": "Christopher Nolan",
+      "Writer": "Jonathan Nolan, Christopher Nolan",
+      "Actors": "Matthew McConaughey, Anne Hathaway, Jessica Chastain",
+      "Plot": "Earth's future has been riddled by disasters, famines, and droughts. There is only one way to ensure mankind's survival: Interstellar travel. A newly discovered wormhole in the far reaches of our solar system allows a team of astronauts to go where no man has gone before, a planet that may have the right environment to sustain human life.",
+      "Language": "English",
+      "Country": "United States, United Kingdom, Canada",
+      "Awards": "Won 1 Oscar. 44 wins & 148 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.7/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "73%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "74/100"
+        }
+      ],
+      "Metascore": "74",
+      "imdbRating": "8.7",
+      "imdbVotes": "2,259,078",
+      "imdbID": "tt0816692",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$203,227,580",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": 25,
+      "Title": "Se7en",
+      "Year": "1995",
+      "Rated": "R",
+      "Released": "22 Sep 1995",
+      "Runtime": "127 min",
+      "Genre": "Crime, Drama, Mystery",
+      "Director": "David Fincher",
+      "Writer": "Andrew Kevin Walker",
+      "Actors": "Morgan Freeman, Brad Pitt, Kevin Spacey",
+      "Plot": "A film about two homicide detectives' (Morgan Freeman and Brad Pitt) desperate hunt for a serial killer who justifies his crimes as absolution for the world's ignorance of the Seven Deadly Sins. The movie takes us from the tortured remains of one victim to the next as the sociopathic \"John Doe\" (Kevin Spacey) sermonizes to Detectives Somerset and Mills -- one sin at a time. The sin of Gluttony comes first and the murderer's terrible capacity is graphically demonstrated in the dark and subdued tones characteristic of film noir. The seasoned and cultured but jaded Somerset researches the Seven Deadly Sins in an effort to understand the killer's modus operandi while the bright but green and impulsive Detective Mills (Pitt) scoffs at his efforts to get inside the mind of a killer...",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Nominated for 1 Oscar. 29 wins & 44 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BY2IzNzMxZjctZjUxZi00YzAxLTk3ZjMtODFjODdhMDU5NDM1XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.6/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "84%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "65/100"
+        }
+      ],
+      "Metascore": "65",
+      "imdbRating": "8.6",
+      "imdbVotes": "1,872,142",
+      "imdbID": "tt0114369",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$101,040,643",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": 26,
+      "Title": "It's a Wonderful Life",
+      "Year": "1946",
+      "Rated": "PG",
+      "Released": "07 Jan 1947",
+      "Runtime": "130 min",
+      "Genre": "Drama, Family, Fantasy",
+      "Director": "Frank Capra",
+      "Writer": "Frances Goodrich, Albert Hackett, Frank Capra",
+      "Actors": "James Stewart, Donna Reed, Lionel Barrymore",
+      "Plot": "George Bailey has spent his entire life giving of himself to the people of Bedford Falls. He has always longed to travel but never had the opportunity in order to prevent rich skinflint Mr. Potter from taking over the entire town. All that prevents him from doing so is George's modest building and loan company, which was founded by his generous father. But on Christmas Eve, George's Uncle Billy loses the business's $8,000 while intending to deposit it in the bank. Potter finds the misplaced money and hides it from Billy. When the bank examiner discovers the shortage later that night, George realizes that he will be held responsible and sent to jail and the company will collapse, finally allowing Potter to take over the town. Thinking of his wife, their young children, and others he loves will be better off with him dead, he contemplates suicide. But the prayers of his loved ones result in a gentle angel named Clarence coming to earth to help George, with the promise of earning his wings. He shows George what things would have been like if he had never been born.",
+      "Language": "English, French",
+      "Country": "United States",
+      "Awards": "Nominated for 5 Oscars. 7 wins & 6 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMDM4OWFhYjEtNTE5Yy00NjcyLTg5N2UtZDQwNDZlYjlmNDU5XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.6/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "94%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "89/100"
+        }
+      ],
+      "Metascore": "89",
+      "imdbRating": "8.6",
+      "imdbVotes": "522,228",
+      "imdbID": "tt0038650",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$1,483,643",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": 27,
+      "Title": "Seven Samurai",
+      "Year": "1954",
+      "Rated": "Not Rated",
+      "Released": "19 Nov 1956",
+      "Runtime": "207 min",
+      "Genre": "Action, Drama",
+      "Director": "Akira Kurosawa",
+      "Writer": "Akira Kurosawa, Shinobu Hashimoto, Hideo Oguni",
+      "Actors": "Toshirô Mifune, Takashi Shimura, Keiko Tsushima",
+      "Plot": "A veteran samurai, who has fallen on hard times, answers a village's request for protection from bandits. He gathers 6 other samurai to help him, and they teach the townspeople how to defend themselves, and they supply the samurai with three small meals a day. The film culminates in a giant battle when 40 bandits attack the village.",
+      "Language": "Japanese",
+      "Country": "Japan",
+      "Awards": "Nominated for 2 Oscars. 5 wins & 9 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZjliMWExOTMtZDQ3ZS00NWU3LWIyN2EtMjllNzk3ZTNlYzg4XkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.6/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "100%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "98/100"
+        }
+      ],
+      "Metascore": "98",
+      "imdbRating": "8.6",
+      "imdbVotes": "379,094",
+      "imdbID": "tt0047478",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$820,278",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": 28,
+      "Title": "The Silence of the Lambs",
+      "Year": "1991",
+      "Rated": "R",
+      "Released": "14 Feb 1991",
+      "Runtime": "118 min",
+      "Genre": "Crime, Drama, Thriller",
+      "Director": "Jonathan Demme",
+      "Writer": "Thomas Harris, Ted Tally",
+      "Actors": "Jodie Foster, Anthony Hopkins, Scott Glenn",
+      "Plot": "F.B.I. trainee Clarice Starling (Jodie Foster) works hard to advance her career, while trying to hide or put behind her West Virginia roots, of which if some knew, would automatically classify her as being backward or white trash. After graduation, she aspires to work in the agency's Behavioral Science Unit under the leadership of Jack Crawford (Scott Glenn). While she is still a trainee, Crawford asks her to question Dr. Hannibal Lecter (Sir Anthony Hopkins), a psychiatrist imprisoned, thus far, for eight years in maximum security isolation for being a serial killer who cannibalized his victims. Clarice is able to figure out the assignment is to pick Lecter's brains to help them solve another serial murder case, that of someone coined by the media as \"Buffalo Bill\" (Ted Levine), who has so far killed five victims, all located in the eastern U.S., all young women, who are slightly overweight (especially around the hips), all who were drowned in natural bodies of water, and all who were stripped of large swaths of skin. She also figures that Crawford chose her, as a woman, to be able to trigger some emotional response from Lecter. After speaking to Lecter for the first time, she realizes that everything with him will be a psychological game, with her often having to read between the very cryptic lines he provides. She has to decide how much she will play along, as his request in return for talking to him is to expose herself emotionally to him. The case takes a more dire turn when a sixth victim is discovered, this one from who they are able to retrieve a key piece of evidence, if Lecter is being forthright as to its meaning. A potential seventh victim is high profile Catherine Martin (Brooke Smith), the daughter of Senator Ruth Martin (Diane Baker), which places greater scrutiny on the case as they search for a hopefully still alive Catherine. Who may factor into what happens is Dr. Frederick Chilton (Anthony Heald), the warden at the prison, an opportunist who sees the higher profile with Catherine, meaning a higher profile for himself if he can insert himself successfully into the proceedings.",
+      "Language": "English, Latin",
+      "Country": "United States",
+      "Awards": "Won 5 Oscars. 71 wins & 50 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNDdhOGJhYzctYzYwZC00YmI2LWI0MjctYjg4ODdlMDExYjBlXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.6/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "95%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "86/100"
+        }
+      ],
+      "Metascore": "86",
+      "imdbRating": "8.6",
+      "imdbVotes": "1,607,965",
+      "imdbID": "tt0102926",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$130,742,922",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    }
+    ],
+    "tv_shows":[
+      
+        {
+          "id":1,
+          "Title": "Game of Thrones",
+          "Year": "2011–2019",
+          "Rated": "TV-MA",
+          "Released": "17 Apr 2011",
+          "Runtime": "57 min",
+          "Genre": "Action, Adventure, Drama",
+          "Director": "N/A",
+          "Writer": "David Benioff, D.B. Weiss",
+          "Actors": "Emilia Clarke, Peter Dinklage, Kit Harington",
+          "Plot": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
+          "Language": "English",
+          "Country": "United States, United Kingdom",
+          "Awards": "Won 59 Primetime Emmys. 397 wins & 655 nominations total",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BMTNhMDJmNmYtNDQ5OS00ODdlLWE0ZDAtZTgyYTIwNDY3OTU3XkEyXkFqcGc@._V1_SX300.jpg",
+          "Ratings": [
+              {
+                  "Source": "Internet Movie Database",
+                  "Value": "9.2/10"
+              }
+          ],
+          "Metascore": "N/A",
+          "imdbRating": "9.2",
+          "imdbVotes": "2,395,647",
+          "imdbID": "tt0944947",
+          "Type": "series",
+          "totalSeasons": "8",
+          "Response": "True"
+      }
+      
+    ]
+  }

@@ -1,0 +1,197 @@
+/* src/components/Sidebar.css */
+
+/* Container for the sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #1b1b1b;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Sidebar Brand */
+  .sidebar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #00c4ff;
+  }
+  
+  /* Navigation list */
+  .sidebar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Headings (e.g., "Mediaverse Management") */
+  .nav-heading {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: #9da5ad;
+    padding: 0.75rem 0 0.25rem 0;
+    margin: 0.5rem auto; /* changed to center horizontally */
+    border-bottom: 1px solid #2a2a2a;
+    align-self: center; /* ensures the element is centered in the flex container */
+  }
+  
+  /* Standard link styling for nav items */
+  .sidebar-nav-link {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 4px;
+    font-size: 0.95rem;
+  }
+  
+  /* Big menu items (Dashboard, Content Management) */
+  .big-menu-item {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.75rem 1rem;
+  }
+  
+  /* Icon styling */
+  .nav-icon {
+    margin-right: 0.5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Ensure FontAwesome icons inherit the parent's color (white by default) */
+  .icon-svg, .caret-icon {
+    color: inherit;
+  }
+  
+  /* Hover effect for main nav items */
+  .sidebar-nav-link:hover,
+  .dropdown-btn:hover {
+    background-color: #444;
+    color: #00c4ff; /* Highlight text on hover */
+    padding: 12px 16px; /* Increase padding for larger hover area */
+    width: 100%; 
+    transition: all 0.3s ease; 
+  }
+  
+  /* If you want the link to remain the same size at all times,
+     remove the extra padding changes on hover. */
+  
+  /* Active state for the dropdown button */
+  .dropdown-btn.active {
+    background-color: #444;
+    color: #00c4ff; /* Text & icon color when active */
+    padding: 12px 16px;
+    width: 100%;
+    border-radius: 4px;
+  }
+  
+  /* Dropdown button styling */
+  .dropdown-btn {
+    background: none;
+    border: none;
+    width: 100%;
+    text-align: left;
+    font: inherit;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 5px;
+    padding: 0.75rem 1rem;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+  }
+  
+  /* Dropdown caret styling */
+  .dropdown-caret {
+    margin-left: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Rotate caret when open */
+  .dropdown-caret.rotate {
+    transform: rotate(90deg);
+  }
+  
+  /* Submenu styling */
+  .dropdown-menu {
+    list-style: none;
+    padding-left: 0.5rem;
+    margin: 0.5rem 0;
+    border-left: 2px solid #444;
+  }
+  
+  /* Submenu items */
+  .sidebar-sub-link {
+    display: flex;
+    align-items: center;
+    color: #c2c7d0;
+    text-decoration: none;
+    padding: 0.3rem 0.5rem;
+    font-size: 0.9rem;
+  }
+  
+  /* Bullet color defaults to white */
+  .sidebar-sub-link span:first-child {
+    margin-right: 0.5rem;
+    color: #fff; /* White bullet by default */
+  }
+  
+  /* Hover effect for submenu items */
+  .sidebar-sub-link:hover {
+    background-color: #333;
+    color: #00c4ff;
+    border-radius: 4px;
+  }
+  
+  /* If you also want the bullet to remain white on hover, add: 
+     .sidebar-sub-link:hover span:first-child {
+       color: #fff;
+     }
+  */
+  
+  /* Active styling for submenu links */
+  .sidebar-sub-link.active {
+    background-color: #444; /* optional background highlight */
+    color: #00c4ff;
+    border-radius: 4px;
+  }
+  
+  /* Active bullet color in submenu */
+  .sidebar-sub-link.active span:first-child {
+    color: #00c4ff; /* bullet also #00c4ff when active */
+  }
+  
+  /* Example PRO badge styling */
+  .pro-badge {
+    background-color: #00c4ff;
+    color: #000;
+    font-size: 0.7rem;
+    padding: 2px 4px;
+    border-radius: 4px;
+    margin-left: 0.5rem;
+  }
+  
+
+  /* Active state for main nav items (including Dashboard) */
+.sidebar-nav-link.active {
+    background-color: #444;
+    color: #00c4ff;
+    padding: 12px 16px;
+    width: 100%;
+    border-radius: 4px;
+  }
+  
+
+  /* Possibly in Sidebar.css */
+.sidebar {
+    width: 250px;
+    background-color: #1b1b1b;
+    color: #fff;
+    min-height: calc(100vh - 60px); /* If your header is 60px tall, adjust as needed */
+    overflow-y: auto;
+  }

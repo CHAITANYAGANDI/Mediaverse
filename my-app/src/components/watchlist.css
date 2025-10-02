@@ -1,0 +1,161 @@
+/* Watchlist Container */
+.watchlist-container {
+    padding: 2rem;
+    min-height: 100vh;
+    background-color: #1b1b1b;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .watchlist-heading {
+    text-align: center;
+    font-size: 2rem;        /* larger text */
+    color: #fff;            /* white or your preferred color */
+    font-weight: bold;      /* bold */
+    margin: 0;              /* remove default margin-top if needed */
+    margin-bottom: 0.5rem; 
+    margin-left: 1.5rem; /* spacing below heading */
+    align-items: center;
+  }
+  
+  /* Description under the heading */
+  .watchlist-description {
+    text-align: center;
+    font-size: 1.1rem;      /* slightly bigger than default */
+    color: #ccc;            /* a lighter gray than pure white */
+    margin-bottom: 1.5rem;  /* some spacing before the cards */
+    line-height: 1.4;       /* comfortable line spacing */
+  }
+  
+  /* Card Grid Layout (same as Home) */
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columns */
+    gap: 1.5rem;
+    justify-items: center;
+    align-items: start;
+  }
+  
+  /* Card Styles */
+  .card {
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 180px;
+    position: relative;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-img {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .card-content {
+    padding: 0.75rem 1rem;
+    text-align: left;
+  }
+  
+  .card-title {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+  
+  .card-details {
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #ccc;
+    width: 100%;
+  }
+  
+  .card-type {
+    background-color: #444;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+  }
+  
+  /* Card Overlay for glass effect & view text */
+  .card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    opacity: 0;
+    transform: scale(0.95);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .card:hover .card-overlay {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  /* Pagination Styles */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1rem;
+  }
+  
+  .pagination button {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1.2rem;
+  }
+  
+  .pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .pagination button:hover:not(:disabled) {
+    background-color: #555;
+    color: #00ccff;
+  }
+  
+  .pagination span {
+    font-size: 1rem;
+    color: #ccc;
+  }
+  
+  .no-items{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #ccc;
+
+    margin-top: 2rem;
+  }

@@ -1,0 +1,136 @@
+/* src/pages/ViewUsers.css */
+
+/* Container for the entire page */
+.view-users-container {
+    background-color: #1b1b1b;
+    color: #fff;
+    min-height: 100vh;
+    padding: 2rem;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Page title */
+  .view-users-title {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #00c4ff;
+    padding-bottom: 0.5rem;
+  }
+  
+  /* Loading state styling */
+  .loading-users {
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.1rem;
+    color: #7f8c8d;
+  }
+  
+  /* Error message styling */
+  .error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 1rem;
+    border-radius: 4px;
+    margin: 1rem auto;
+    text-align: center;
+    max-width: 600px;
+  }
+  
+  /* Container for the table and footer */
+  .table-container {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #2a2a2a;
+  }
+  
+  /* Ensure horizontal scroll if needed */
+  .table-scroll {
+    overflow-x: auto;
+  }
+  
+  /* The table styling */
+  .view-users-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #2a2a2a;
+    color: #fff;
+  }
+  
+  .view-users-table thead tr {
+    background-color: #00c4ff;
+    color: #000;
+    text-align: left;
+  }
+  
+  .view-users-table th {
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 0.95rem;
+  }
+  
+  .view-users-table tbody tr {
+    border-bottom: 1px solid #444;
+    transition: background-color 0.2s ease;
+  }
+  
+  /* Zebra striping for table rows */
+  .view-users-table tbody tr:nth-child(odd) {
+    background-color: #2f2f2f;
+  }
+  .view-users-table tbody tr:nth-child(even) {
+    background-color: #2a2a2a;
+  }
+  
+  .view-users-table td {
+    padding: 0.8rem 1rem;
+    font-size: 0.9rem;
+    color: #fff;
+  }
+  
+  /* Truncate long text in the Bio column */
+  .bio-cell {
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  /* Styling for the "No users found" row */
+  .no-users-row {
+    text-align: center;
+    color: #7f8c8d;
+    padding: 2rem;
+  }
+  
+  /* Footer below the table */
+  .table-footer {
+    padding: 1rem;
+    background-color: #2f2f2f;
+    border-top: 1px solid #444;
+    color: #ccc;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
+  /* Role badge styling */
+  .role-badge {
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    color: #fff;
+  }
+  
+  .admin-badge {
+    background-color: #27ae60; /* Greenish */
+  }
+  
+  .user-badge {
+    background-color: #2980b9; /* Bluish */
+  }
+  

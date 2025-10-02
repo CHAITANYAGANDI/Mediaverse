@@ -1,0 +1,204 @@
+/* src/components/DeleteMoviesTvShows.css */
+
+/* Container for the entire delete list */
+.delete-list-container {
+    background-color: #1b1b1b;
+    color: #fff;
+    min-height: 100vh;
+    padding: 2rem;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+  
+  /* Header styling */
+  .delete-list-header {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .delete-list-title {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  /* Container for items */
+  .delete-items-container {
+    margin-top: 1rem;
+  }
+  
+  /* No items message */
+  .no-titles {
+    color: #ccc;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  /* Each item row */
+  .delete-item-row {
+    background-color: #2a2a2a;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    position: relative;
+  }
+  
+  /* Poster styling */
+  .delete-item-poster {
+    width: 60px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 4px;
+    flex-shrink: 0;
+  }
+  
+  /* Info section */
+  .delete-item-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+  }
+  
+  .delete-item-title-row {
+    margin-bottom: 0.3rem;
+  }
+  
+  .delete-item-number {
+    margin-right: 0.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .delete-item-title {
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .delete-item-title:hover {
+    color: #00c4ff;
+  }
+  
+  .delete-item-rating {
+    display: block;
+    margin-top: 0.5rem;
+    color: #fff;
+  }
+  
+  .delete-item-rating-value {
+    color: #00c4ff;
+  }
+  
+  .delete-item-rated {
+    display: block;
+    margin-top: 0.5rem;
+    color: #ccc;
+  }
+  
+  /* Delete button container */
+  .delete-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: auto;
+  }
+  
+  /* Delete button styling */
+  .delete-item-btn {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+  }
+  
+  .delete-item-btn:hover {
+    background-color: #ff4444;
+    color: #000;
+  }
+  
+  /* ------------- Modal Styling ------------- */
+  
+  /* Modal overlay */
+  .delete-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9998;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+  }
+  
+  /* Modal content container */
+  .delete-modal-content {
+    background-color: #2a2a2a;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 90%;
+    color: #fff;
+    z-index: 9999;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+  
+  /* Modal header */
+  .delete-modal-content h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  /* Modal body text */
+  .delete-modal-content p {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  /* Modal buttons container */
+  .delete-modal-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  /* Modal buttons */
+  .confirm-delete-btn,
+  .cancel-delete-btn {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .confirm-delete-btn:hover {
+    background-color: #ff4444;
+    color: #000;
+  }
+  
+  .cancel-delete-btn:hover {
+    background-color: #00c4ff;
+    color: #000;
+  }
+  

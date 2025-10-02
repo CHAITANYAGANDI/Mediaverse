@@ -1,0 +1,43 @@
+{
+  "users": [
+    {
+      "id": "6f87",
+      "name": "adsfadf",
+      "email": "asdfasdfda@gmail.com",
+      "password": "leda.castor"
+    },
+    {
+      "id": "8d1e",
+      "name": "Chaitanya Sai Gandi",
+      "email": "chaitanyagandi2000@gmail.com",
+      "password": "Leda.Castor@007"
+    },
+    {
+      "id": "1e8a",
+      "name": "adaasdf",
+      "email": "admin@admin.com",
+      "password": "admin.admin"
+    },
+    {
+      "id": "4567",
+      "name": "leda",
+      "email": "lead@castor.com",
+      "password": "$2b$10$Ifat8d1Jlsfx0ehk6O07n.Xr30bXitVNot3KkHSq0xifrCoyauyxO"
+    },
+    {
+      "id": "e86b",
+      "name": "Leda and Castor",
+      "email": "major@gmail.com",
+      "password": "$2b$10$HXVmg/GA9fp4pWTVzBL2J.szhO8Yn1GKftq6cv9PDp18msDTLN7rG",
+      "gender": "Male",
+      "dob": "2025-03-18",
+      "country": "United States"
+    },
+    {
+      "id": "a42f",
+      "name": "Michael",
+      "email": "michael@gmail.com",
+      "password": "$2b$10$lRpRlq14BZ5ULHAVc3vRQeS2dzCfkREv7GZQJe7/pF0Rmp3kyZ9wS"
+    }
+  ]
+}

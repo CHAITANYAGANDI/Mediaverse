@@ -1,0 +1,202 @@
+/* src/pages/DeleteUsers.css */
+
+/* Container for the entire page */
+.delete-users-container {
+    background-color: #1b1b1b;
+    color: #fff;
+    min-height: 100vh;
+    padding: 2rem;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Page title */
+  .delete-users-title {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #00c4ff;
+    padding-bottom: 0.5rem;
+  }
+  
+  /* Loading state styling */
+  .loading-users {
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.1rem;
+    color: #7f8c8d;
+  }
+  
+  /* Error message styling */
+  .error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 1rem;
+    border-radius: 4px;
+    margin: 1rem auto;
+    text-align: center;
+    max-width: 600px;
+  }
+  
+  /* "No users" row styling */
+  .no-users-row {
+    text-align: center;
+    color: #7f8c8d;
+    padding: 2rem;
+  }
+  
+  /* Container for the table + footer */
+  .table-container {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #2a2a2a;
+  }
+  
+  /* Horizontal scroll if needed */
+  .table-scroll {
+    overflow-x: auto;
+  }
+  
+  /* The table styling */
+  .delete-users-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #2a2a2a;
+    color: #fff;
+  }
+  
+  .delete-users-table thead tr {
+    background-color: #00c4ff;
+    color: #000;
+    text-align: left;
+  }
+  
+  .delete-users-table th {
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 0.95rem;
+  }
+  
+  .delete-users-table tbody tr {
+    border-bottom: 1px solid #444;
+    transition: background-color 0.2s ease;
+  }
+  
+  /* Zebra striping for table rows */
+  .delete-users-table tbody tr:nth-child(odd) {
+    background-color: #2f2f2f;
+  }
+  .delete-users-table tbody tr:nth-child(even) {
+    background-color: #2a2a2a;
+  }
+  
+  .delete-users-table td {
+    padding: 0.8rem 1rem;
+    font-size: 0.9rem;
+    color: #fff;
+  }
+  
+  /* Footer below the table */
+  .table-footer {
+    padding: 1rem;
+    background-color: #2f2f2f;
+    border-top: 1px solid #444;
+    color: #ccc;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
+  /* Delete button styling */
+  .delete-user-btn {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.4rem 0.75rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  .delete-user-btn:hover {
+    background-color: #ff4444;
+    color: #000;
+  }
+  
+  /* 
+    Confirmation modal styling 
+    (for "Confirm Deletion" overlay and content)
+  */
+  
+  /* Modal overlay */
+  .delete-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9998;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto; /* ensure scrolling if content is tall */
+  }
+  
+  /* Modal content container */
+  .delete-modal-content {
+    background-color: #2a2a2a;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 450px;
+    width: 90%;
+    color: #fff;
+    z-index: 9999;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    max-height: 80vh;
+    overflow-y: auto;
+    text-align: center;
+  }
+  
+  .delete-modal-content h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .delete-modal-content p {
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+  }
+  
+  /* Buttons row in modal */
+  .delete-modal-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .delete-confirm-btn,
+  .delete-cancel-btn {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-confirm-btn:hover {
+    background-color: #ff4444;
+    color: #000;
+  }
+  
+  .delete-cancel-btn:hover {
+    background-color: #00c4ff;
+    color: #000;
+  }
+  

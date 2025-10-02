@@ -1,0 +1,236 @@
+/* src/pages/EditUsers.css */
+
+/* Container for the entire page */
+.edit-users-container {
+    background-color: #1b1b1b;
+    color: #fff;
+    min-height: 100vh;
+    padding: 2rem;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+  
+  /* Page title */
+  .edit-users-title {
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    border-bottom: 2px solid #00c4ff;
+    padding-bottom: 0.5rem;
+  }
+  
+  /* Loading state styling */
+  .loading-users {
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.1rem;
+    color: #7f8c8d;
+  }
+  
+  /* Error message styling */
+  .error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    text-align: center;
+    max-width: 600px;
+    margin: 1rem auto;
+  }
+  
+  /* Container for the table + footer */
+  .table-container {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #2a2a2a;
+  }
+  
+  /* Horizontal scroll if needed */
+  .table-scroll {
+    overflow-x: auto;
+  }
+  
+  /* The table */
+  .edit-users-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #2a2a2a;
+    color: #fff;
+  }
+  
+  .edit-users-table thead tr {
+    background-color: #00c4ff;
+    color: #000;
+    text-align: left;
+  }
+  
+  .edit-users-table th {
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 0.95rem;
+  }
+  
+  .edit-users-table tbody tr {
+    border-bottom: 1px solid #444;
+    transition: background-color 0.2s ease;
+  }
+  
+  /* Zebra striping if you prefer */
+  .edit-users-table tbody tr:nth-child(odd) {
+    background-color: #2f2f2f;
+  }
+  .edit-users-table tbody tr:nth-child(even) {
+    background-color: #2a2a2a;
+  }
+  
+  .edit-users-table td {
+    padding: 0.8rem 1rem;
+    font-size: 0.9rem;
+  }
+  
+  /* Truncate the bio column if too long */
+  .bio-cell {
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  /* If no users found */
+  .no-users-row {
+    text-align: center;
+    color: #7f8c8d;
+    padding: 2rem;
+  }
+  
+  /* Footer below the table */
+  .table-footer {
+    padding: 1rem;
+    background-color: #2f2f2f;
+    border-top: 1px solid #444;
+    color: #ccc;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
+  /* Role badge styling */
+  .role-badge {
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    color: #fff;
+  }
+  .admin-badge {
+    background-color: #27ae60; /* greenish */
+  }
+  .user-badge {
+    background-color: #2980b9; /* bluish */
+  }
+  
+  /* Edit button styling in table */
+  .edit-user-btn {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.4rem 0.75rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  .edit-user-btn:hover {
+    background-color: #00c4ff;
+    color: #000;
+  }
+  
+  /* Modal overlay */
+  .edit-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 9998;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto; /* ensure scrolling if content is tall */
+  }
+  
+  /* Modal content container */
+  .edit-modal-content {
+    background-color: #2a2a2a;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 90%;
+    color: #fff;
+    z-index: 9999;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+  
+  .edit-modal-content h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .edit-modal-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  /* Each form group for label + input */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    padding: 0.5rem;
+    border: 1px solid #444;
+    background-color: #1b1b1b;
+    color: #fff;
+    border-radius: 4px;
+  }
+  
+  /* Buttons row */
+  .edit-modal-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    margin-top: 1rem;
+  }
+  
+  .save-edit-btn,
+  .cancel-edit-btn {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .save-edit-btn:hover,
+  .cancel-edit-btn:hover {
+    background-color: #00c4ff;
+    color: #000;
+  }
+  
